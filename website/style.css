@@ -47,6 +47,14 @@ p {
     line-height: 1.5em;
 }
 
+.deck-rules-list>li {
+    padding: 3px 0px 3px 0px;
+}
+
+.play-rules-list>li {
+    padding: 3px 0px 3px 0px;
+}
+
 .card-pool-set {
     width: 100%;
     font-size: 32px;
@@ -65,6 +73,10 @@ p {
     color: #1c1a1b;
     display: block;
     float: left;
+}
+
+.ban-list>li {
+    padding: 3px 0px 3px 0px;
 }
 
 footer {
