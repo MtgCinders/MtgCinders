@@ -7,3 +7,8 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 # redirect html pages to the root domain
 RewriteRule ^index\.html$ / [NC,R,L]
+
+# caching
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|svg|html)$">
+Header set Cache-Control "max-age=86400, public"
+</filesMatch>
