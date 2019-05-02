@@ -1,4 +1,9 @@
 RewriteEngine On
 RewriteBase /
+
+# redirect www to non-www
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# redirect html pages to the root domain
+RewriteRule ^index\.html$ / [NC,R,L]
