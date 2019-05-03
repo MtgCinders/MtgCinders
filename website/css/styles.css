@@ -1,51 +1,5 @@
 html {
     background-image: url(../images/background.png);
-    background-color: #101010;
-    background-repeat: repeat;
-    min-height: 100vh;
-    line-height: 1.5em;
-}
-
-.banner {
-    width: calc(100% + 32px);
-    height: 250px;
-    margin: 0 -16px;
-    display: block;
-    object-fit: cover;
-    object-position: 50% 25%;
-}
-
-body {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #1c1a1b;
-    max-width: calc(768px);
-    margin: 0 auto;
-    display: flex;
-    min-height: 100%;
-    padding: 0 16px;
-    flex-direction: column;
-    background-color: #cabea7;
-    min-height: 100vh;
-}
-
-section {
-    margin: 2em auto;
-    text-align: justify;
-    clear: both;
-}
-
-h1 {
-    font-size: 2em;
-    margin: 1em 0 1em 0;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-p {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    line-height: 1.5em;
 }
 
 .deck-rules-list>li {
