@@ -17,7 +17,7 @@ html {
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #1c1a1b;
-    max-width: calc(768px);
+    max-width: 768px;
     margin: 0 auto;
     display: flex;
     min-height: 100%;
